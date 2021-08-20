@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Registration Form</title>
+	<style>
+	body{
+	background:url(bg-img-01.jpg);
+	}
+	</style>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src='main.js'></script>
+</head>
+<body  onload="callonload()"> 
+    <h1 style="text-align:center; color:black;"><b>Welcome to My Application<b></h1>
+
+    
+        <div class="card" style="text-align: center; border: 2px solid black; width: 600px;margin-left: 300px;padding: 20px;margin-top: 100px;">
+            <div class="card-body" >
+                
+                    <div id="show1">
+                        <input class="form-control" type="text"  id="fname" placeholder="Enter first name">
+                        <input style="margin-top: 5px;"  class="form-control" type="text" id="lname" placeholder="Enter last name">
+                        <button style="margin-top: 5px;"  class="btn" onclick="showNext(1)">next</button>
+                    </div>
+                    <div id="show2">
+                        <inputclass="form-control" type="text"  id="fname" placeholder="Enter first name">
+                        <input style="margin-top: 5px;" class="form-control" type="text" id="lname" placeholder="Enter email address">
+                        <input style="margin-top: 5px;" class="form-control" type="text" id="lname" placeholder="Enter phone numnber">
+                        <button style="margin-top: 5px;"  class="btn" onclick="showNext(5)">back</button> <button 
+                        style="margin-top: 5px;" class="btn" onclick="showNext(2)">next</button>
+                    </div>
+                    <div id="submitthis">
+                        <input    class="form-control" type="text"  id="fname" placeholder="Enter state">
+                        <input  style="margin-top: 5px;"  class="form-control" type="text" id="lname" placeholder="Enter district">
+
+                        <input  style="margin-top: 5px;"  class="form-control" type="text" id="lname" placeholder="Enter taluk">
+                        <button style="margin-top: 5px;"  class="btn" onclick="showNext(4)">back</button>  <button class="btn"
+                        style="margin-top: 5px;"  onclick="showNext(3)">Submit</button>
+                    </div>
+                    <div id="submitSucess">
+                      <h2>Thanks for submitting the registration form</h2>
+                    </div>
+               
+            </div>
+          </div>
+	
+
+     
+    
+</body>
+</html>
+
